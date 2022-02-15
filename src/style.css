@@ -1,9 +1,19 @@
 body {
+	  font-family: Gotham A,Gotham B,sans-serif;
 	display: flex;
 	margin: 0;
 	flex-direction: column;
 	justify-content: space-between;
 	align-items: center;
+}
+
+a:hover {
+	cursor: pointer;
+	text-decoration: underline;
+}
+
+#footer a:hover {
+	text-decoration: none;
 }
 
 #header {
